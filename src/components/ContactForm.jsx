@@ -40,7 +40,19 @@ export default function ContactForm() {
   };
 
   return (
-    <>
+    <div className="mx-auto max-w-5xl">
+      <div className="">
+        <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+          Let's Connect
+        </h2>
+        <p className="mt-2 text-lg leading-8 text-gray-600">
+          Thank you for visiting my portfolio! <br></br> Whether you have a
+          question, want to discuss a potential project or just want to say
+          Hello, I'd love to hear from you.<br></br> Please fill out the form
+          below, and I will get back to you as soons as possible.
+        </p>
+      </div>
+
       <form
         onSubmit={handleSubmit}
         className="py-4 mt-4 border-t flex flex-col gap-5"
@@ -95,6 +107,6 @@ export default function ContactForm() {
             </div>
           ))}
       </div>
-    </>
+    </div>
   );
 }
