@@ -40,7 +40,7 @@ export default function ContactForm() {
   };
 
   return (
-    <div className="mx-auto max-w-5xl">
+    <div className="mx-auto max-w-6xl">
       <div className="">
         <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
           Let's Connect
@@ -90,7 +90,10 @@ export default function ContactForm() {
           ></textarea>
         </div>
 
-        <button className="bg-green-700 p-3 text-white font-bold" type="submit">
+        <button
+          className="bg-cyan-500 rounded-lg w-96 mx-auto shadow-lg shadow-cyan-500/50 hover:shadow-indigo-500/40 p-3 text-white font-bold "
+          type="submit"
+        >
           Send
         </button>
       </form>

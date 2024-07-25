@@ -1,5 +1,5 @@
 "use client";
-// List of your Data Analysis projects :
+
 const posts = [
   {
     id: 1,
@@ -163,7 +163,6 @@ export default function BlogSections() {
               <div>
                 <img
                   className="rounded-2xl drop-shadow-md hover:drop-shadow-xl transition-all duration-200 delay-100"
-                  //   src="https://website-image-1.s3.amazonaws.com/Data+analyst_Portfolio+Projects/Dashboard_1.jpg"
                   src={`${post.projectImageUrl}`}
                 />
               </div>
