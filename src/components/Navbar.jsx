@@ -35,7 +35,7 @@ export default function Navbar() {
   };
 
   return (
-    <nav className="fixed w-full h-24 shadow-xl bg-white">
+    <nav className="fixed w-full h-24 shadow-xl bg-white z-40">
       {/* Desktop menu */}
       <div className="flex justify-between items-center h-full w-full px-4 2xl:px-16">
         {/* Left Side that will display the logo :  
