@@ -8,7 +8,7 @@ export default function Footer() {
         {/* &copy; {currentYear} Edwige : The Researcher Analyst */}
         <p>
           Dr. Edwige : The Researcher Analyst -{" "}
-          {`© ${new Date().getFullYear()}`} -All rights reserved.
+          {`© ${new Date().getFullYear()}`} - All rights reserved.
         </p>
         <p className="mt-2">Powered by Women Green Cloud.</p>
       </div>
